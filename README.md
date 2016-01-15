@@ -196,6 +196,9 @@ LoadModule proxy_balancer_module modules/mod_proxy_balancer.so
 LoadModule proxy_connect_module modules/mod_proxy_connect.so
 LoadModule proxy_http_module modules/mod_proxy_http.so
 LoadModule slotmem_shm_module modules/mod_slotmem_shm.so
+LoadModule lbmethod_bybusyness_module modules/mod_lbmethod_bybusyness.so
+LoadModule lbmethod_byrequests_module modules/mod_lbmethod_byrequests.so
+LoadModule lbmethod_bytraffic_module modules/mod_lbmethod_bytraffic.so
 LoadModule status_module modules/mod_status.so
 ```
 
@@ -308,4 +311,4 @@ tomcat2
 ```
 
 ### 2.4 查看balancer-manager
-http://localhost/balancer-manager
+http://127.0.0.1/balancer-manager
