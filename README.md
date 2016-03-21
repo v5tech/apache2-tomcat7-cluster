@@ -179,10 +179,15 @@ http://127.0.0.1/jkmanager/
 
 ### 1.7 参考文章
 https://httpd.apache.org/docs/2.4/platform/windows.html#winsvc
+
 https://zybuluo.com/Fancy-Bai/note/118782
+
 https://zybuluo.com/Fancy-Bai/note/118883
+
 http://xiexiaojun.blog.51cto.com/2305291/1717850
+
 http://blog.csdn.net/chaijunkun/article/details/6987443
+
 http://my.oschina.net/heartdong/blog/98416
 
 # 2. 使用mod_proxy方式
